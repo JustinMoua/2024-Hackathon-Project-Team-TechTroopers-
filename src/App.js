@@ -100,6 +100,8 @@ function App() {
       
       <footer>
         <h1>THANKS TO THE FOLLOWING: </h1>
+        OSU APP CENTER
+        <p></p>
         PAYCOM 
         <p></p>
         <img src="media/pictures/paycom.png" alt="paycom" width="100" height="100" />
