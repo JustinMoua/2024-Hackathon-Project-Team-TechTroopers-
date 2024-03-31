@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Xenobiology and Alien Studies</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <!-- The style is used so we can create a background color-->
+  <style>
+    body {
+      background-color: black;
+      /* Set the background color to black */
+      color: white;
+      /* Set text color to white for better visibility */
+    }
+  </style>
+</head>
+
+<!-- The body is what the person sees-->
+
+<body>
+
+  <!--Div is used to primarily place text and images/videos into.-->
+
+  <div class="banner">
+    <div class="navbar">
+      <!-- CHANGE FILE PATH WHEN CREATING LOCALLY-->
+      <!-- Should make this a tech trooper banner later-->
+
+      <!-- <img src = "media/gif/pokes.gif" class = "logo"> -->
+      <img class="TechTroopers" img src="media/gif/TechTroopers.gif" class="logo">
+
+      <ul>
+        <hr>
+        </hr>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact_us.html">Contact us</a></li>
+        <li><a href="game.html">Play a game!</a></li>
+        <li><a href="advisor.html">Advising</a></li>
+        <li><a href="https://go.okstate.edu/undergraduate-academics/majors/">OSU(MAJORS)</a></li>
+        <hr>
+        </hr>
+      </ul>
+    </div>
+
+    <hr>
+
+  </div>
+
+    <div class = "content">
+
+        <h1>
+            Welcome Advisors and Admission Counselors!
+        </h1>
+
+        <!--===================LOGIN PAGE STARTS HERE===================LOGIN PAGE STARTS HERE-->
+        <div class="logInCenter">
+            <fieldset>
+                <legend>Please log in to add prospective students to our database</legend>
+                <label for="fname">USERNAME:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">PASSWORD:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="lname">ENTER NEW MAJOR:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <!--Makes it so when we click the submit button then we can view student info -->
+                <div id="logInButton">
+                    <input type="submit" value="Log In">
+                </div>
+            </fieldset>
+        </div>
+        <!--===================LOGIN PAGE ENDS HERE===================LOGIN PAGE ENDS HERE-->
+
+    <div class="spacer"></div> <!-- Spacer -->
+
+    <div id="table1" class="hidden">
+        <div class = "center">  
+            <table>
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Percentage of Students who Pick This Major</th>
+                        <th>Percentage of Students who Change Their Major After</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" value=""></td>
+                        <td><input type="text" value=""></td>
+                        <td><input type="text" value=""></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" value=""></td>
+                        <td><input type="text" value=""></td>
+                        <td><input type="text" value=""></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" value=""></td>
+                        <td><input type="text" value=""></td>
+                        <td><input type="text" value=""></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" value=""></td>
+                        <td><input type="text" value=""></td>
+                        <td><input type="text" value=""></td>
+                    </tr>
+                </tbody>
+            </table>
+            <button type = "button"><span></span>Add Info to Database!</button>
+        </div>
+    </div>
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+<!-- <h1>THANKS TO THE FOLLOWING: </h1>
+PAYCOM 
+<p></p>
+<img src="media/pictures/paycom.png" alt="paycom" width="100" height="100" />
+<p></p>
+ACM
+<p></p>
+<img src="media/pictures/ACM.jpg" alt="acm" width="100" height="100" />
+<p> </p> -->
+
+</html>
