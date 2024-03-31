@@ -98,8 +98,15 @@ function App() {
       <script src="script.js"></script>
       
       <footer>
-        <h1>THANKS TO OUR SPONSORS:</h1>
-        <p>PAYCOM</p>
+        <h1>THANKS TO THE FOLLOWING: </h1>
+        PAYCOM 
+        <p></p>
+        <img src="media/pictures/paycom.png" alt="paycom" width="100" height="100" />
+        <p></p>
+        ACM
+        <p></p>
+        <img src="media/pictures/ACM.jpg" alt="acm" width="100" height="100" />
+        <p> </p>
         <h2>WEBSITE DEVELOPED AND STYLED BY:</h2>
         <p>JUSTIN MOUA</p>
         <p>ASHTON CECIL</p>
